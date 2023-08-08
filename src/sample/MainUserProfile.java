@@ -2,7 +2,6 @@ package sample;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
@@ -31,6 +30,12 @@ public class MainUserProfile {
 
     @FXML
     private Text profileLogin;
+
+    @FXML
+    private Text userEmail;
+
+    @FXML
+    private Text userPhoneInfo;
 
     @FXML
     void initialize() {
