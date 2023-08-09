@@ -10,7 +10,7 @@ import javafx.scene.text.Text;
 
 public class MainUserProfile {
 
-    static String userInfoEmail,userInfoLogin,userInfoPhone;
+    static String userInfoEmail,userInfoLogin,userInfoPhone, userInfoPassword;
 
     @FXML
     private ResourceBundle resources;
@@ -41,10 +41,9 @@ public class MainUserProfile {
 
     @FXML
     void initialize() {
-    userInfoLogin = profileLogin.getText();
-    userInfoPhone = userPhoneInfo.getText();
-    userInfoEmail = userEmail.getText();
-
+    profileLogin.setText(userInfoLogin);
+    userPhoneInfo.setText(userInfoPhone);
+    userEmail.setText(userInfoEmail);
 
 
     }

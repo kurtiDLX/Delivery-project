@@ -40,7 +40,7 @@
       </ImageView>
       <AnchorPane layoutX="163.0" layoutY="262.0" prefHeight="32.0" prefWidth="302.0" style="-fx-background-color: white; -fx-border-color: silver;">
          <children>
-            <Text fx:id="profileLogin" layoutX="27.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" @new member" wrappingWidth="258.0">
+            <Text fx:id="profileLogin" layoutX="35.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" new member" wrappingWidth="246.0">
                <font>
                   <Font size="18.0" />
                </font>
@@ -73,7 +73,7 @@
                   <Image url="@../myImage/email.jpg" />
                </image>
             </ImageView>
-            <Text fx:id="userEmail" layoutX="39.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user email" wrappingWidth="117.98307228088379">
+            <Text fx:id="userEmail" layoutX="38.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user email" wrappingWidth="258.0">
                <font>
                   <Font size="18.0" />
                </font>
